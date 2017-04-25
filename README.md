@@ -1,6 +1,6 @@
 # npmtest-headroom.js
 
-#### test coverage for  [headroom.js (v0.9.3)](http://wicky.nillia.ms/headroom.js)  [![npm package](https://img.shields.io/npm/v/npmtest-headroom.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-headroom.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-headroom.js.svg)](https://travis-ci.org/npmtest/node-npmtest-headroom.js)
+#### basic test coverage for  [headroom.js (v0.9.3)](http://wicky.nillia.ms/headroom.js)  [![npm package](https://img.shields.io/npm/v/npmtest-headroom.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-headroom.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-headroom.js.svg)](https://travis-ci.org/npmtest/node-npmtest-headroom.js)
 
 #### Give your page some headroom. Hide your header until you need it
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-headroom.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-headroom.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-headroom.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-headroom.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-headroom.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-headroom.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-headroom.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-headroom.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-headroom.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-headroom.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-headroom.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-headroom.js/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "test": "grunt test --verbose",
         "version": "npm run build"
     },
-    "version": "0.9.3"
+    "version": "0.9.3",
+    "bin": {}
 }
 ```
 
